@@ -1,6 +1,7 @@
 # 5 Day Weather Forecast
 
 ## Project goal
+```
 For this project we were tasked with building a web based "5 Day Forecast" weather application.
 The application should:
   *Allow the user to search by city
@@ -9,15 +10,19 @@ The application should:
   *The current weather conditions should include the city name, current date, an icon representation of weather condtions,
    the temperature, the humidity, and the wind speed
   *Display a 5-day forecast that displays an icon representation of weather condtions,the temperature, the humidity, and the wind speed
-  *When a city in the search history is selected, the above conditions should be presented again
+  *When a city in the search history is selected, the above conditions should be presented again`
+```
 
 ## Development
+```
 This application will retrieve weather data using OpenWeatherMap APIs. Persistent data will use 'localStorage'.
 Other resources used will be listed below:
   *
+```
 
 ## Images
-
+```
+```
 ## User story and Acceptance Criteria
 
 ```
