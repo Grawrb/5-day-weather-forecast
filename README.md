@@ -17,7 +17,7 @@ The application should:
 ```
 This application will retrieve weather data using OpenWeatherMap APIs. Persistent data will use 'localStorage'.
 Other resources used will be listed below:
-  * API key:77bed057d1e682674477e0e3d7e2e2a5
+ 
   *Google fonts: 
 ```
 
