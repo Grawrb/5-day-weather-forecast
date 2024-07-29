@@ -1,0 +1,112 @@
+/* This is the main stylesheet for the dashboard */
+body {
+    background-color: #f8f9fa;
+    font-family: "Roboto", sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+    color: #333;
+  }
+  
+  /* Header styles for the dashboard */
+  header {
+    background-image: linear-gradient(to right, blue, darkblue);
+    color: #fff;
+    padding: 1rem;
+    border: 0.5rem solid greenyellow;
+    margin-bottom: 1rem;
+  }
+  
+  h1 {
+    display: flex;
+    justify-content: end;
+    font-size: 2.5rem;
+    padding: 10px;
+    margin-right: 5rem;
+  }
+  
+  /* Aside styles for the dashboard */
+  aside {
+    display: flex;
+    flex-direction: column;
+    float: left;
+    width: 30rem;
+    padding: 0.6rem;
+    border: 0.5rem solid greenyellow;
+  }
+  
+  .searchCity {
+    font-weight: bold;
+    font-size: 22px;
+  }
+  
+  .btn-group {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-auto-rows: min-content;
+    gap: 1rem;
+  }
+  
+  /* Section styles for the dashboard */
+  section {
+    display: flex;
+    flex-direction: column;
+    margin: 2.5rem 1rem 1rem 1rem;
+  }
+  
+  /* Main content styles for the dashboard */
+  main {
+    display: flex;
+    flex-direction: column;
+    margin: 2.5rem 1rem 1rem 1rem;
+  }
+  
+  /* Media screen styles for the dashboard between 320px and 767px*/
+  @media screen and (min-width: 320px) and (max-width: 767px) {
+    header {
+      width: 100%;
+    }
+    h1 {
+      justify-content: center;
+    }
+    aside {
+      width: 100%;
+    }
+    section {
+      padding: 1rem 1rem 0rem 0rem;
+      width: 100%;
+      margin: 1rem;
+    }
+    .card-body {
+      align-items: center;
+    }
+    main {
+      width: 100%;
+      order: 2;
+    }
+  }
+  
+  /* Media screen styles for the dashboard between 768px and 1024px*/
+  @media screen and (min-width: 768px) and (max-width: 1024px) {
+    header {
+      width: 100%;
+    }
+    h1 {
+      justify-content: space-between;
+    }
+    aside {
+      width: 30rem;
+    }
+    section {
+      padding: 1rem 1rem 0rem 0rem;
+      width: 100%;
+      margin: 1rem;
+    }
+    .card-body {
+      align-items: center;
+    }
+    main {
+      padding: 1rem 1rem 0rem 0rem;
+      width: 100%;
+      order: 2;
+    }
+  }
