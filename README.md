@@ -18,7 +18,9 @@ The application should:
 This application will retrieve weather data using OpenWeatherMap APIs. Persistent data will use 'localStorage'.
 Other resources used will be listed below:
  
-  *Google fonts: 
+  - Bootstrap CDN
+  - JQuery
+  - Popper JS
 ```
 
 ## Images
