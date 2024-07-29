@@ -1,5 +1,14 @@
 # 5 Day Weather Forecast
 
+## Table of Contents
+
+- [Project Goal](#project-goal)
+- [Development](#development)
+- [Installation](#installation)
+- [Images](#images)
+- [User Story and Acceptance Criteria](#user-story-and-acceptance-criteria)
+- [Developer Contact](#developer-contact)
+
 ## Project goal
 ```
 For this project we were tasked with building a web based "5 Day Forecast" weather application.
@@ -23,9 +32,16 @@ Other resources used will be listed below:
   - Popper JS
 ```
 
+## Installation
+
+ - No installation is required. Simply navigate to the web address listed below.
+ - <a href="https://grawrb.github.io/5-day-weather-forecast/" alt="5 Day Weather Forecast">5 Day Weather Forecast</a>
+
 ## Images
-```
-```
+
+- ![Screenshot](./assets/images/5%20Day%20Weather%20Forecast%20-%20Google%20Chrome%207_29_2024%209_47_29%20AM.jxr)
+- ![Screenshot2](./assets/images/5%20Day%20Weather%20Forecast%20-%20Google%20Chrome%207_29_2024%209_52_25%20AM.png)
+
 ## User story and Acceptance Criteria
 
 ```
@@ -45,3 +61,8 @@ THEN I am presented with a 5-day forecast that displays the date, an icon repres
 WHEN I click on a city in the search history
 THEN I am again presented with current and future conditions for that city
 ```
+## Developer Contact
+
+- Developed by Robert Maxfield
+- <a href="https://github.com/Grawrb" alt="GitHub Profile Link">Grawrb GitHub Profile</a>
+- [Contact Me](mailto:maxfieldrob@gmail.com)
